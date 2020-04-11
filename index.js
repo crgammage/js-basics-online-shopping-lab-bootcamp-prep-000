@@ -58,6 +58,7 @@ if (cardNumber === undefined){
   return `Sorry, we don't have a credit card on file for you.`
 }
 else { let cartTotal = total()
+  cart = [];
   return `Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`
   cart = [];
   return cart;
